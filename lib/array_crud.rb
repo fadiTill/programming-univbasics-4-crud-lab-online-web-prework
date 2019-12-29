@@ -46,11 +46,11 @@ end
 
 def retrieve_last_element_from_array(array)
   array = [ 1,2,3]
-  p [-1]
+  retrieve_last_element_from_array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
 array = [1,2,3]
-
-
+update_element_from_index [2]
+end
 end
